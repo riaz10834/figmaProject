@@ -97,7 +97,7 @@ function FilterSection() {
           ></div>
 
           <div
-            className="absolute top-[150px]   sm:w-[350px] md:w-[350px] lg:w-[350px] h-40
+            className="absolute top-[150px] p-3 bg-white sm:w-[350px] md:w-[350px] lg:w-[350px] 
             rounded-lg left-[250px] z-50 -translate-x-1/2 -translate-y-1/2 "
           >
             <Accordion>
