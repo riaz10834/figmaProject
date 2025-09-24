@@ -7,6 +7,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import LogIn from "./pages/LogIn";
 import SignUpCom from "./components/signup/SignUpCom";
 import Shop from "./pages/Shop";
+import ViewWishlist from "./pages/Viewbag";
+import ViewFavorites from "./pages/ViewFavorites";
 function App() {
   return (
     <BrowserRouter>
@@ -17,6 +19,8 @@ function App() {
         <Route path="/login" element={<LogIn />} />
         <Route path="/signup" element={<SignUpCom />} />
         <Route path="/shop" element={<Shop />} />
+        <Route path="/wishlist" element={<ViewWishlist />} />
+        <Route path="/favorites" element={<ViewFavorites />} />
       </Routes>
       <Footer />
     </BrowserRouter>

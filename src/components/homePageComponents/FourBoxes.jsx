@@ -64,7 +64,7 @@ function FourBoxes() {
 
       <div className="relative text-center w-[80%] h-[3px] bg-black mx-auto mt-12">
         <button className="absolute left-1/2 -translate-x-1/2 -top-4 border-white border-[6px] w-[140px] rounded-xl p-2 bg-[#B5EBE6]">
-          View More
+          <a href="/shop">View More</a>
         </button>
       </div>
     </div>

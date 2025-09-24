@@ -79,7 +79,7 @@ function ShopGender({ title }) {
       {/* Footer */}
       <div className="relative text-center mx-auto w-[80%] h-[3px] bg-black mt-[50px]">
         <button className="absolute left-1/2 -translate-x-1/2 -top-[25px] border-white border-[15px] w-[140px] rounded-[20px] p-2 bg-[#B5EBE6]">
-          View More
+          <a href="/shop">View More</a>
         </button>
       </div>
     </div>
